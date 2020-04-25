@@ -1,2 +1,11 @@
 # DO180-apps
 DO180 Repository for Sample Applications
+
+# 2-2
+
+~~~
+sudo podman run --name mysql-basic \
+> -e MYSQL_USER=user1 -e MYSQL_PASSWORD=mypa55 \
+> -e MYSQL_DATABASE=items -e MYSQL_ROOT_PASSWORD=r00tpa55 \
+> -d rhscl/mysql-57-rhel7:5.7-3.14
+~~~
